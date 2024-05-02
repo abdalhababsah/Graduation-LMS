@@ -6,7 +6,7 @@ import ContactMain from './ContactMain';
 import ScrollToTop from '../../components/ScrollTop';
 
 // Image
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/image.png';
 
 const Contact = () => {
     return (

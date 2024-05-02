@@ -92,7 +92,7 @@ const CourseSidebarPart = () => {
                                 </Link>
                                 <div className="titles">                                                    
                                     <h4><Link to={`/course/${data.id}`}>{data.title}</Link></h4>
-                                    <span>{data.price}</span>
+                                    {/* <span>{data.price}</span> */}
                                 </div>
                             </li>
                             )

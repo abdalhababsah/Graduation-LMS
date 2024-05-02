@@ -13,7 +13,7 @@ const Topics = () => {
                 <div class="react__title__section react__title__section-all">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">Echooling available courses</h6>
+                            <h6 className="wow animate__fadeInUp" data-wow-duration="0.3s">StepHub available courses</h6>
                             <h2 class="react__tittle wow animate__fadeInUp" data-wow-duration="0.5s"> Online Coaching Lessons For Remote Learning </h2>
                         </div>
                     </div>

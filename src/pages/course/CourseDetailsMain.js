@@ -259,7 +259,7 @@ const CourseDetailsMain = (props) => {
                                                     </div>
                                                     <ul className="react-ratings">
                                                         <li className="react-book"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg> {data.lesson} Lessons</li>
-                                                        <li className="price">{data.price}</li>
+                                                        {/* <li className="price">{data.price}</li> */}
                                                     </ul>
                                                 </div>
                                             </div>
@@ -272,11 +272,11 @@ const CourseDetailsMain = (props) => {
                     <div className="col-lg-4 md-mt-60">
                         <div className="react-sidebar react-back-course2 ml----30">                                                                        
                             <div className="widget get-back-course">                                       
-                                <ul className="price">
+                                {/* <ul className="price">
                                     <li>{coursePrice} USD</li>
                                     <li>{courseRegularPrice} USD</li>
                                     <li>25% OFF</li>
-                                </ul>                                        
+                                </ul>                                         */}
                                 <ul className="price__course">
                                     <li> <i className="icon_profile"></i> Instructor <b>{courseAuthor}</b></li>
                                     <li><i className="icon_tag_alt"></i> Subject <b>{courseName}</b></li>

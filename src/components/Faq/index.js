@@ -26,7 +26,7 @@ const Faq = () => {
                 <AccordionItem className="accordion-item" uuid="b">
                     <AccordionItemHeading className="accordion-button">
                         <AccordionItemButton className="card-link">
-                            What makes Echooling different from other?
+                            What makes StepHub different from other?
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel className="accordion-body">
@@ -36,7 +36,7 @@ const Faq = () => {
                 <AccordionItem className="accordion-item" uuid="c">
                     <AccordionItemHeading className="accordion-button">
                         <AccordionItemButton className="card-link">
-                            What are the main features of Echooling?
+                            What are the main features of StepHub?
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel className="accordion-body">
@@ -46,7 +46,7 @@ const Faq = () => {
                 <AccordionItem className="accordion-item" uuid="d">
                     <AccordionItemHeading className="accordion-button">
                         <AccordionItemButton className="card-link">
-                            How will Echooling help me in the academic?
+                            How will StepHub help me in the academic?
                         </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel className="accordion-body">

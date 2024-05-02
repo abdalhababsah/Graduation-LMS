@@ -117,7 +117,7 @@ const CourseGridMain = () => {
                                     courseLesson= {data.lesson}
                                     courseDuration= {data.duration}
                                     courseEnrolled= {data.enrolled}
-                                    coursePrice= {data.price}
+                                    // coursePrice= {data.price}
                                     courseReview= {data.review}
                                 />
                             }

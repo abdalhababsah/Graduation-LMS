@@ -30,7 +30,7 @@ const SingleCourseThree = (props) => {
                             <span class="icon_star"></span> 
                             <span class="icon_star"></span> ({courseReview})
                         </li>
-                        <li class="price">{coursePrice}</li>
+                        {/* <li class="price">{coursePrice}</li> */}
                     </ul>
                 </div>
             </div>

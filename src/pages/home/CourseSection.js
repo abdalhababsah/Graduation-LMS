@@ -26,7 +26,7 @@ const Course = () => {
                                         courseName= {data.name}
                                         courseLesson= {data.lesson}
                                         courseEnrolled= {data.enrolled}
-                                        coursePrice= {data.price}
+                                        // coursePrice= {data.price}
                                     />
                                 }
 

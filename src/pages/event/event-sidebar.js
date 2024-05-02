@@ -17,7 +17,7 @@ const EventSidebar = () => {
             <div class="react-wrapper">
                 <div class="react-wrapper-inner">
                     <Breadcrumb
-                        pageTitle="Event Sidebar"
+                        pageTitle="Projects"
                     />
 
                     <EventSidebarMain />

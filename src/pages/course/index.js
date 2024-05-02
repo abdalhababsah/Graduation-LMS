@@ -5,7 +5,7 @@ import Breadcrumb from '../../components/Breadcrumb';
 import CourseGridMain from './CourseGridMain';
 import ScrollToTop from '../../components/ScrollTop';
 
-import Logo from '../../assets/images/logos/logo2.png';
+import Logo from '../../assets/images/logos/image.png';
 
 const Course = () => {
     return (

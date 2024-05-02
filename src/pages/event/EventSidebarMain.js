@@ -22,7 +22,7 @@ const EventSidebarMain = () => {
                             </div>
                             <div class="col-md-6 text-right">                                
                                 <select class="from-control">
-                                    <option>Event Type: All</option>
+                                    <option>Projects Type: All</option>
                                     <option>Sort by popularity</option>
                                     <option>Sort by average rating</option>
                                     <option>Sort by lates</option>
@@ -57,7 +57,7 @@ const EventSidebarMain = () => {
                     <div class="col-lg-4">
                         <div class="react-sidebar react-sidebar-event ml----30">
                             <div class="widget back-post blog-form">
-                                <h3 class="widget-title">Find events</h3>
+                                <h3 class="widget-title">Find Projects</h3>
                                 <form id="contact-form">
                                     <div class="event-input">
                                         <input id="name" type="text" name="name" placeholder="Event from" />
@@ -82,7 +82,7 @@ const EventSidebarMain = () => {
                                 </form>
                             </div>
                             <div class="widget back-post">
-                                <h3 class="widget-title">Popular Events</h3>
+                                <h3 class="widget-title">Popular Projects</h3>
                                 <ul class="related-courses">
                                     {events.map((data, index) => {
                                         return (

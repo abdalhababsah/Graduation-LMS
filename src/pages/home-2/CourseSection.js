@@ -49,7 +49,7 @@ const Course = () => {
                                                 courseName= {data.name}
                                                 courseLesson= {data.lesson}
                                                 courseEnrolled= {data.enrolled}
-                                                coursePrice= {data.price}
+                                                // coursePrice= {data.price}
                                                 courseAuthor= {data.author}
                                                 courseAuthorImg= {`${data.authorImg}`}
                                                 courseReview= {data.review}
@@ -72,7 +72,7 @@ const Course = () => {
                                                 courseName= {data.name}
                                                 courseLesson= {data.lesson}
                                                 courseEnrolled= {data.enrolled}
-                                                coursePrice= {data.price}
+                                                // coursePrice= {data.price}
                                                 courseAuthor= {data.author}
                                                 courseAuthorImg= {`${data.authorImg}`}
                                                 courseReview= {data.review}
@@ -95,7 +95,7 @@ const Course = () => {
                                                 courseName= {data.name}
                                                 courseLesson= {data.lesson}
                                                 courseEnrolled= {data.enrolled}
-                                                coursePrice= {data.price}
+                                                // coursePrice= {data.price}
                                                 courseAuthor= {data.author}
                                                 courseAuthorImg= {`${data.authorImg}`}
                                                 courseReview= {data.review}
@@ -118,7 +118,7 @@ const Course = () => {
                                                 courseName= {data.name}
                                                 courseLesson= {data.lesson}
                                                 courseEnrolled= {data.enrolled}
-                                                coursePrice= {data.price}
+                                                // coursePrice= {data.price}
                                                 courseAuthor= {data.author}
                                                 courseAuthorImg= {`${data.authorImg}`}
                                                 courseReview= {data.review}
@@ -141,7 +141,7 @@ const Course = () => {
                                                 courseName= {data.name}
                                                 courseLesson= {data.lesson}
                                                 courseEnrolled= {data.enrolled}
-                                                coursePrice= {data.price}
+                                                // coursePrice= {data.price}
                                                 courseAuthor= {data.author}
                                                 courseAuthorImg= {`${data.authorImg}`}
                                                 courseReview= {data.review}

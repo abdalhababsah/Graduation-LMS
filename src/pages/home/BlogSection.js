@@ -11,7 +11,7 @@ const Blog = () => {
         <>
             <div className="react-blog__area blog__area pt---120 pb---120 graybg-home">
                 <div className="container blog__width">
-                    <SectionTitle Title="Echooling News and Blogs" />
+                    <SectionTitle Title="StepHub News and Blogs" />
                     <div className="row">
                         {posts.map((data, index) => {
                             return (
