@@ -53,11 +53,11 @@ const HomeSlider = () => {
                                         <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="1s">Great Quality Cocial life</span>
                                         <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
                                             Discover the world of<br />
-                                            possible university.
+                                             ScepHUB.
                                         </h2>
-                                        <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
+                                        {/* <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
                                             <Link to="/about" className="react-btn-border">Admissions</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="event__video-btn--play wow animate__fadeInUp" data-wow-duration="1.4s">
@@ -76,13 +76,14 @@ const HomeSlider = () => {
                             <div className="container">
                                 <div className="slider-content">
                                     <div className="content-part">
-                                        <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="3s">Great Quality Cocial life</span>
+                                        <span className="slider-pretitle wow animate__fadeInUp" data-wow-duration="3s">Great Quality Social life</span>
                                         <h2 className="slider-title wow animate__fadeInUp" data-wow-duration="1s">
-                                            Discover the world of<br /> possible university.
+                                            Discover the world of<br />  
+                                            ScepHUB.
                                         </h2>
-                                        <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
+                                        {/* <div className="slider-btn wow animate__fadeInUp" data-wow-duration="1.2s">
                                             <Link to="/about" className="react-btn-border">Admissions</Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                                 <div className="event__video-btn--play wow animate__fadeInUp" data-wow-duration="1.4s">
