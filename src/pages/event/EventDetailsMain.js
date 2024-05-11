@@ -1,6 +1,6 @@
 import React  from 'react';
 import { Link } from 'react-router-dom';
-
+import Swal from 'sweetalert2';
 
 import instructor1 from '../../assets/images/instructors/9.png'
 import instructor2 from '../../assets/images/instructors/10.png'
@@ -9,6 +9,14 @@ import instructor4 from '../../assets/images/instructors/12.png'
 
 const CourseDetailsMain = (props) => {
     const { eventDate, eventStartTime, eventEndTime, eventLocation, eventCost, eventHost, eventTotalSlot, eventBookedSlot, eventContactNo } = props;
+    const handleJoinNowClick = () => {
+        Swal.fire({
+            title: 'Unable to Join Project',
+            text: "You can't join the project because you haven't taken the required courses.",
+            icon: 'error',
+            confirmButtonText: 'Ok'
+        });
+    };
 
     return (
         <div className="back__course__page_grid react-courses__single-page react-events__single-page pb---40 pt---120">
@@ -66,8 +74,10 @@ const CourseDetailsMain = (props) => {
                                     <li> Course 3 <b>JS</b></li>
                                 </ul>
                                 <div className='btn btn-primary my-4'>
-                                    <Link to="#" className="start-btn text-white">Join Now! <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link>
-                                </div>
+                    <Link to="#" className="start-btn text-white" onClick={handleJoinNowClick}>
+                        Join Now! <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </Link>
+                </div>
                             </div>                                
                             <div className="widget react-date-sec">
                                 <ul className="recent-date">

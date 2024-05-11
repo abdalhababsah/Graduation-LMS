@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Faq from '../../components/Faq';
 import courses from '../../data/Courses.json';
+import Swal from 'sweetalert2';
 
 import authorImg1 from '../../assets/images/course-single/user4.jpg'
 import authorImg2 from '../../assets/images/course-single/user5.jpg'
@@ -15,7 +16,14 @@ const CourseDetailsMain = (props) => {
         const tabStyle = 'nav nav-tabs';
 
     const { courseImg, courseName, courseAuthor, courseLesson, courseDuration, courseEnrolled, coursePrice, courseRegularPrice, courseLanguage } = props;
-    
+    const handleStartNowClick = () => {
+        Swal.fire({
+            title: 'Subscribe to Premium',
+            text: "You need to subscribe to premium to start this course.",
+            icon: 'info',
+            confirmButtonText: 'Subscribe Now'
+        });
+    };
     return (
         <div className="back__course__page_grid react-courses__single-page pb---16 pt---110">
             <div className="container pb---70">
@@ -285,8 +293,10 @@ const CourseDetailsMain = (props) => {
                                     <li><i className="icon_book_alt"></i> Lectures <b>{courseLesson} lectures</b></li>
                                     <li><i className="icon_map_alt"></i> Language <b> {courseLanguage}</b></li>
                                 </ul>
-                                <Link to="#" className="start-btn">Start Now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></Link>
-                                <div className="share-course">Share this course <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></em>
+                                <Link to="#" className="start-btn" onClick={handleStartNowClick}>
+                            Start Now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </Link>
+                                                        <div className="share-course">Share this course <em><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></em>
                                     <span>
                                         <Link to="#"><i aria-hidden="true" className="social_facebook"></i></Link>
                                         <Link to="#"><i aria-hidden="true" className="social_twitter"></i></Link>
