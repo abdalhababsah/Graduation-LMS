@@ -55,34 +55,50 @@ const MenuItems = (props) => {
 	};
     return (
         <>
-            <nav>
-                <ul>
-                    <li className={location.pathname === "/login" ? "menu-active" : ""}>
-                        <Link to="/login">Login</Link>
-                    </li>
-                    <li className={location.pathname === "/signup" ? "menu-active" : ""}>
-                        <Link to="/signup">Signup</Link>
-                    </li>
-                    <li className={location.pathname === "/event-sidebar" ? "menu-active" : ""}>
-                        <Link to="/event-sidebar">Events Sidebar</Link>
-                    </li>
-                    <li className={location.pathname === "/about" ? "menu-active" : ""}>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li className={location.pathname === "/instructor" ? "menu-active" : ""}>
-                        <Link to="/instructor">Instructors</Link>
-                    </li>
-                    <li className={location.pathname === "/course-sidebar" ? "menu-active" : ""}>
-                        <Link to="/course-sidebar">Courses (Right Sidebar)</Link>
-                    </li>
-                    <li className={location.pathname === "/contact" ? "menu-active" : ""}>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-            </nav>
+            {/* <li className={location.pathname === "/" ? "menu-active" : ""}>
+                <Link to="/" className="hash" onClick={() => { openMobileMenu('home'); }}>
+                    Home
+                </Link>
+            </li> */}
+           
+            {/* <li className={location.pathname === "/signup" ? "menu-active" : ""}>
+                <Link to="/signup" className="hash" onClick={() => { openMobileMenu('page'); }}>
+                    Signup
+                </Link>
+            </li> */}
+            <li className={location.pathname === "/about" ? "menu-active" : ""}>
+                <Link to="/about" className="hash" onClick={() => { openMobileMenu('page'); }}>
+                    About
+                </Link>
+            </li>
+           
+            <li className={location.pathname === "/event-sidebar" ? "menu-active" : ""}>
+                <Link to="/event-sidebar" className="hash" onClick={() => { openMobileMenu('event'); }}>
+                    Projects
+                </Link>
+            </li>
+            <li className={location.pathname === "/course-sidebar" ? "menu-active" : ""}>
+                <Link to="/course-sidebar" className="hash" onClick={() => { openMobileMenu('course'); }}>
+                    Courses
+                </Link>
+            </li>
+            <li className={location.pathname === "/instructor" ? "menu-active" : ""}>
+                <Link to="/instructor" className="hash" onClick={() => { openMobileMenu('page'); }}>
+                    Instructors
+                </Link>
+            </li>
+            <li className={location.pathname === "/contact" ? "menu-active" : ""}>
+                <Link to="/contact" className="hash" onClick={() => { openMobileMenu('page'); }}>
+                    Contact
+                </Link>
+            </li>
+            <li className={location.pathname === "/login" ? "menu-active" : ""}>
+                <Link to="/login" className="hash" onClick={() => { openMobileMenu('page'); }}>
+                    Login
+                </Link>
+            </li>
         </>
     );
-    
     // return (
     //     <>
 
